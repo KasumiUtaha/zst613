@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>灰原哀</title>
+   <link rel="icon" href="../images/ph30.jpg">
+  <style>
+    .text{
+      font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+  text-align: center;
+  margin-top: 150px; 
+  color:rgba(239, 130, 160, 1.0);
+  font-size: 27px;
+    }
+        @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+    h1 {
+      animation-name: fadeIn;
+      animation-duration: 3s;
+  position: absolute;
+  top: 70px;
+  left: 170px;
+  color: #c04851;
+  font-size: 50px;
+  font-family: "Georgia", sans-serif;
+}
+h2 {
+        animation-name: fadeIn;
+      animation-duration: 3s;
+
+  position: absolute;
+  top: 130px;
+  left: 170px;
+  color: #c04851;
+  font-size: 50px;
+  font-family: "Georgia", sans-serif;
+}
+    body {
+      background-image: url("../images/ph11.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgba(86,152,195,0.4);
+      color: #fff;
+      height: 50px;
+      transform: translate(0,47px);
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+    .text1, .text3, .text5, .text7 {
+  animation: moveFromLeft 2s ease-in-out forwards;
+}
+
+.text2, .text4, .text6, .text8 {
+  animation: moveFromRight 2s ease-in-out forwards;
+}
+
+@keyframes moveFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.photos1 {
+  position: absolute;
+  top: 67%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+.photos2 {
+  position: absolute;
+  top: 87%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+.photos3 {
+  position: absolute;
+  top: 47%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="profile.html">人物介绍</a>
+    <a href="photos.html">图集</a>
+    <a href="motos.html">语录</a>
+    <a href="relationship.html">角色人气</a>
+ </nav>
+  <div class="container">
+    <h1>灰原哀</h1>
+    <h2>はいばらあい</h2>
+    <div class="text">
+    <p class="text1">"简直如同童话一般，当恶魔流下眼泪的同时，也就失去了魔力。"</p>
+    <p class="text2">"夕阳，把世界都染红的太阳的末日。不知我这一生还有几次，能看到这种悲伤的色彩。"</p>
+    <p class="text3">"深海里的鲨鱼 看到海面上 阳光下跳跃的海豚 总会不自觉的害怕"</p>
+    <p class="text4">"“爱”就是科学与逻辑永远无法解释的程序。"</p>
+    <p class="text4">"我不会忘记。无论发生什么，我都不会忘记。"</p>
+    <p class="text5">“没有人可以阻止你追求正义和真相，除非你自己放弃。”</p>
+    <p class="text6">"即使是在最黑暗的夜晚，星星也会为我们指引方向。"</p>
+    <p class="text7">"永远不要放弃追寻真相。"</p>
+    <p class="text8">"没有人能够预见自己未来的归宿。"</p>
+    </div>
+  <div>
+  <img src="../images/ph21.jpg" width="20%" height="20%" class="photos1" >
+  <img src="../images/ph20.jpg" width="20%" height="20%" class="photos2" >
+  <img src="../images/ph22.jpg" width="20%" height="20%" class="photos3" >
+  </div>
+
+ 
+</div>
+
+  </div>
+</body>
+</html>

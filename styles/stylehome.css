@@ -1,0 +1,134 @@
+h1 {
+  position: absolute;
+  top: 70px;
+  left: 170px;
+  color: rgb(33,119, 184, 1.0);
+  font-size: 50px;
+  font-family: "Georgia", sans-serif;
+}
+h2 {
+  position: absolute;
+  top: 130px;
+  left: 170px;
+  color: rgb(33,119, 184, 1.0);
+  font-size: 50px;
+  font-family: "Georgia", sans-serif;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.1); 
+  background-image: url("images/64431373_p0.png");
+}
+   .text1 {
+      animation-name: slidin11;
+      animation-duration: 2s;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+  writing-mode: vertical-rl; 
+  transform: translate(1400px);
+  text-align: center;
+  margin-top: 150px; 
+  color:rgba(239, 130, 160, 1.0);
+  font-size: 27px;
+}
+.text2 {
+  animation-name: slidin10;
+  animation-duration: 2s;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+  writing-mode: vertical-rl; 
+  transform: translate(1444px);
+  text-align: center;
+  margin-top: -350px; 
+  color:rgba(239, 130, 160, 1.0);
+  font-size:27px;
+}
+@keyframes slidin11{
+  from
+  {
+    opacity: 0;
+    transform: translate(1400px,-100%);
+  }
+  to{
+    opacity: 1.0;
+    transform: translateY(1400px,150px);
+  }
+}
+@keyframes slidin10
+{
+  from{
+    opacity: 0;
+    transform: translate(1444px,100%);
+  }
+  to{
+    opacity: 1;
+    transform: translate(1444px,0px);
+  }
+}
+     @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.text3 {
+  animation-duration: 2s;
+  animation-name: slidein1;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+  position: absolute;
+  left: 5%; /* 初始位置在屏幕左侧之外 */
+  top: 31%;
+  color:rgba(43，18，22，1.0);
+  font-size: 33px;
+}
+
+@keyframes slidein1 {
+  from {
+    left: -100%; /* 从屏幕左侧之外开始 */
+  }
+  to {
+    left: 5%; /* 最终位置在屏幕左侧10%的位置 */
+  }
+}
+
+.text4 {
+  animation-duration: 2s;
+  animation-name: slidein2;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+ position: absolute;
+  left: 20%;
+  top: 40%;
+  color:rgba(80，10，22，1.0);
+  font-size: 33px;
+}
+@keyframes slidein2 {
+  from {
+   right: -100%;
+  }
+  to {
+    right: 58%; 
+  }
+}
+
+.text5 {
+   animation-duration: 2s;
+  animation-name: slidein3;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+ position: absolute;
+  left: 10%;
+  top: 49%;
+  color:rgba(43，18，22，1.0);
+  font-size: 33px;
+}
+@keyframes slidein3 {
+  from {
+    left: -100%; /* 从屏幕左侧之外开始 */
+  }
+  to {
+    left: 10%; /* 最终位置在屏幕左侧10%的位置 */
+  }
+}

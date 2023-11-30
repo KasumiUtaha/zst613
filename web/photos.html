@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>灰原哀</title>
+     <link rel="icon" href="../images/ph30.jpg">
+
+  <style>
+    @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+    h1 {
+      animation-name: fadeIn;
+      animation-duration: 3s;
+  position: absolute;
+  top: 70px;
+  left: 170px;
+  color: rgb(33,119, 184, 1.0);
+  font-size: 50px;
+  font-family: "Georgia", sans-serif;
+}
+h2 {
+        animation-name: fadeIn;
+      animation-duration: 3s;
+
+  position: absolute;
+  top: 130px;
+  left: 170px;
+  color: rgb(33,119, 184, 1.0);
+  font-size: 50px;
+  font-family: "Georgia", sans-serif;
+}
+    
+    .images1
+    {      
+      animation-duration: 3s;
+      animation-name: slidIn1;
+      transform: translateY(150px);
+    }
+    .images2
+    {
+      transform: translateY(240px);
+    }
+    @keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(150px);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(200%);
+  }
+  to {
+    transform: translateY(240px);
+  }
+}
+
+.images1 {
+  animation-name: slideInFromTop;
+  animation-duration: 3s;
+}
+
+.images2 {
+  animation-name: slideInFromBottom;
+  animation-duration: 2s;
+}
+    
+    body {
+      background-image: url("../images/20231129145501.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgba(86,152,195,0.4);
+      color: #fff;
+      height: 50px;
+      transform: translate(0,47px);
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+
+    .text1
+    {
+      color:rgba(86, 152, 195, 1.0);
+
+      font-size: 40;
+    }
+  </style>
+</head>
+<body>
+  <h1>灰原哀</h1>
+    <h2>はいばらあい</h2>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="profile.html">人物介绍</a>
+    <a href="photos.html">图集</a>
+    <a href="motos.html">语录</a>
+    <a href="relationship.html">角色人气</a>
+  </nav>
+  <div class="images1">
+  <img src="../images/R-C.jpg" alt="Image 1" class="image image1" width="250" translateY="300">
+    <img src="../images/photos.jpg" alt="Image 2" class="image image2" width="250">
+    <img src="../images/c-ssl.duitang.jpg" alt="Image 3" class="image image3" width="250" height="370">
+    <img src="../images/pink.jpg" alt="Image 4" class="image image4" width="250" height="400" >
+    <img src="../images/20231125_11090467.png.jpg" alt="Image 5" class="image image5" width="250">
+    <img src="../images/safe-img.xhscdn(1).webp" alt="Image 6" class="image image6" width="250">
+  </div>
+  <div class="images2">
+    <img src="../images/v2-470d7667d68cc25ceb1ebad15df1e60e_r.jpg" alt="Image 7" class="image image7" width="250">
+    <img src="../images/ph1.jpg" alt="Image 8" class="image image8" width="250">
+     <img src="../images/R-C (1).jpg" alt="Image 9" class="image image9" width="250">
+    <img src="../images/pg2.jpg" alt="Image 10" class="image image10" width="250">
+    <img src="../images/ph3.jpg" alt="Image 11" class="image image11" width="250">
+    <img src="../images/ph4.jpg" alt="Image 12" class="image image12" width="250">
+
+</div>
+
+  </div>
+</body>
+</html>

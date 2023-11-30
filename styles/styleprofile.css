@@ -1,0 +1,181 @@
+#input-text::-webkit-scrollbar {
+  display: none;
+}
+.text1 {
+   animation-duration: 3s;
+  animation-name: fadeIn3;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+  position: absolute;
+  left: 5%; /* 初始位置在屏幕左侧之外 */
+  top: 31%;
+  color: #5d3131;
+  font-size: 33px;
+}
+.text2 {
+  animation-duration: 3s;
+  animation-name: fadeIn3;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+ position: absolute;
+  left: 12%;
+  top: 40%;
+  color: #5d3131;
+  font-size: 33px;
+}
+.text3 {
+   animation-duration: 3s;
+  animation-name: fadeIn3;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+ position: absolute;
+  left: 5%;
+  top: 49%;
+  color: #5d3131;
+  font-size: 33px;
+}
+.text4 {
+  animation-duration: 3s;
+  animation-name: fadeIn3;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+ position: absolute;
+  left: 10%;
+  top: 58%;
+  color: #5d3131;
+  font-size: 33px;
+}
+.text5 {
+  animation-duration: 3s;
+  animation-name: fadeIn3;
+  font-weight: bold;
+  font-family: "仿宋", "STFangsong", "serif";
+ position: absolute;
+  left: 10%;
+  top: 22%;
+  color: #5d3131;
+  font-size: 33px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.text6 {
+  position: absolute;
+  top: 10%;
+  right: 32%;
+  color: #a61b29;
+  font-size: 40px;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+.text7 {
+  position: absolute;
+  top: 40%;
+  right: 32%;
+  color: #a61b29 ;
+  font-size: 40px;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+.text8 {
+  position: absolute;
+  top: 70%;
+  right: 5%;
+  color: #a61b29 ;
+  font-size: 40px;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+.text-box {
+  position: absolute;
+  left: 70%;
+  right: 5%;
+  top: 15%;
+  bottom: 65%;
+  border: none;
+ 
+  overflow: hidden;
+  color: rgba(199,189,188,1.0);
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+
+@keyframes fadeIn3 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#input-text {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 宋体, SimSun, sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  resize: none;
+  color:rgba(19, 17,36, 1.0);
+  font-weight: bold;
+  animation-name: fadeIn3;
+  animation-duration: 3s;
+}
+.text-box1{
+  position: absolute;
+  left: 70%;
+  right: 5%;
+  top: 40%;
+  bottom: 10%;
+  border: none;
+  overflow: hidden;
+  color: rgba(199,189,188,1.0);
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+#input-text1 {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 宋体, SimSun, sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  resize: none;
+  color:rgba(19, 17,36, 1.0);
+  font-weight: bold;
+  animation-name: fadeIn3;
+  animation-duration: 3s;
+}
+#input-text1::-webkit-scrollbar {
+  display: none;
+}
+img{
+    animation-name: fadeIn3;
+  animation-duration: 5s;
+  width: 10%;
+  height: 17%;
+  position: absolute;
+  left: 45%;
+  top: 70%;
+
+}
